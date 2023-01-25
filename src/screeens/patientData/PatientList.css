@@ -1,0 +1,57 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.h1{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table tr,.table th {
+    border: 1px solid #ddd;
+  padding: 10px;
+}
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4f627e;
+    color: white;
+}
+.table tr,.table td {
+    border: 1px solid #ddd;
+  padding: 3px;
+  text-align: center;
+}
+.button {
+    background-color: #4f627e;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.add-patient-button{
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
